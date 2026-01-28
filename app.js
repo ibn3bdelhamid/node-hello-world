@@ -2,9 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send(
-    "Hello World from Jenkins CI/CD , this is a change after webhook test wotj ngrok🚀",
-  );
+  res.send("Update welcome message🚀");
 });
 
 app.listen(3000, () => {
